@@ -2,8 +2,8 @@
 title: A number of small steps down a road
 email: neil@fauna.io
 description: "Far from organized, possibly wrong."
-baseurl: "/project-name"
-url: "http://susan-deaux.com"
+baseurl: "/status"
+url: ""
 
 # Build settings
 markdown: kramdown
