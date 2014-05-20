@@ -1,0 +1,10 @@
+# Site settings
+title: A number of small steps down a road
+email: neil@fauna.io
+description: "Far from organized, possibly wrong."
+baseurl: ""
+url: "http://susan-deaux.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
