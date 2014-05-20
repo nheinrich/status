@@ -22,3 +22,12 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll]:    http://jekyllrb.com
+
+Pygments example
+{% highlight ruby lineos %}
+def my_method
+  # here's a comment
+  value = 4 + 10
+  response = "my value: #{value}"
+end
+{% endhighlight %}
