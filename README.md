@@ -2,10 +2,9 @@ status
 =======
 
 - bundle install
-- jekyll serve
+- jekyll serve --baseurl ''
 
-
-To view the site navigate to:
-- http://localhost:4000 --baseurl ''
-
-Note: the empty baseurl is to support the github site (nheinrich.github.io/status) while still being able to view the site locally.
+Note: The baseurl is set to '/status' in the config. This setting is necessary
+for the live site to work. To accommodate developing locally you can pass an
+empty baseurl to `jekyll serve` and the site will run as expected
+(on http://localhost:4000).
